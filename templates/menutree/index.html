@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load menu_tags %}
+
+{% block content %}
+<p>Меню 1: </p>
+{% draw_menu 'rastenia' %}
+<br>
+<p>Меню 2: </p>
+{% draw_menu 'Животные' %}
+{% endblock %}
